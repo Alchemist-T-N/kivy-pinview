@@ -16,7 +16,7 @@ You can use [this platform](https://github.com/Alchemist-T-N/kivy-pinview/issues
                   -> BoxLayout:
                       -> Labels:
         Working:
-                On touching the view, TextInput takes focus and text entered in that is rendered to the Labels and on fully entering data into labels, on_otp(self, caller_obj, otp) is fired which can be        overridden.
+                On touching the view, TextInput takes focus and text entered in that is rendered to the Labels and on fully entering data into labels, on_otp(self, caller_obj, otp) is fired which can be overridden.
         Use:
                 can be used to take otp(one time password) inputs...
                 
