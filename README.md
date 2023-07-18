@@ -27,7 +27,7 @@ You can use [this platform](https://github.com/Alchemist-T-N/kivy-pinview/issues
         from kivypinview import PinView
 
         kv = """
-        #:import PinView pinview.PinView
+        #:import PinView kivypinview.PinView
 
         PinView:
                 size_hint_x:.8
