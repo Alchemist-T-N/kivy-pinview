@@ -3,10 +3,10 @@ This is an android pinview implementation for kivy
 You can use [this platform](https://github.com/Alchemist-T-N/kivy-pinview/issues) to write your content.
 
 #      installation:
-        pip install kivypinview
+        pip install kivy-pinview
 
 #       uninstall:
-        pip uninstall kivypinview
+        pip uninstall kivy-pinview
 
 #       kivy-pinview
         This module is built using some ready to use kivy widgets like Label, TextInput, BoxLayout, FloatLayout etc.
@@ -24,10 +24,9 @@ You can use [this platform](https://github.com/Alchemist-T-N/kivy-pinview/issues
 
         from kivy.lang import Builder
         from kivy.app import App
-        from kivypinview import PinView
 
         kv = """
-        #:import PinView kivypinview.PinView
+        #:import PinView kivy-pinview.PinView
 
         PinView:
                 size_hint_x:.8
